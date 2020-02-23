@@ -1,15 +1,17 @@
+Refer to [SpyderXu](https://github.com/SpyderXu/multi-object-tracking-paper-list) with some supplements
+
 # Online
 
 |                             Name                             |                            Source                            | Publication |    Notes     |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: | :----------: |
 | DeepMOT:A Differentiable Framework for Training Multiple Object Trackers | [[pdf]](https://arxiv.org/pdf/1906.06618.pdf) [[code]](https://gitlab.inria.fr/yixu/deepmot) | arXiv(2019) |   DeepMOT    |
-| Online multiple pedestrian tracking using deep temporal appearance matching association | [[pdf]](https://arxiv.org/pdf/1906.06618.pdf) [[code]](https://gitlab.inria.fr/yixu/deepmot) | arXiv(2019) |  DD_TAMA19   |
+| Online multiple pedestrian tracking using deep temporal appearance matching association | [[pdf]](https://arxiv.org/pdf/1906.06618.pdf) [[code]](https://gitlab.inria.fr/yixu/deepmot) | arXiv(2019) |  **DD_TAMA19**   |
 | Spatial-temporal relation networks for multi-object tracking | [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Xu_Spatial-Temporal_Relation_Networks_for_Multi-Object_Tracking_ICCV_2019_paper.pdf) |  ICCV2019   |     STRN     |
-|           Towards Real-Time Multi-Object Tracking            | [[pdf]](https://arxiv.org/pdf/1909.12605v1.pdf) [[code]](https://github.com/Zhongdao/Towards-Realtime-MOT) | arXiv(2019) | JDE(private) |
-| Multi-object tracking with multiple cues and switcher-aware classification |          [[pdf]](https://arxiv.org/abs/1901.06129)           | arXiv(2019) |     LSST     |
+|           Towards Real-Time Multi-Object Tracking            | [[pdf]](https://arxiv.org/pdf/1909.12605v1.pdf) [[code]](https://github.com/Zhongdao/Towards-Realtime-MOT) | arXiv(2019) | **JDE(private)** |
+| Multi-object tracking with multiple cues and switcher-aware classification |          [[pdf]](https://arxiv.org/abs/1901.06129)           | arXiv(2019) |     **LSST**     |
 | FAMNet: Joint learning of feature, affinity and multi-dimensional assignment for online multiple object tracking | [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chu_FAMNet_Joint_Learning_of_Feature_Affinity_and_Multi-Dimensional_Assignment_for_ICCV_2019_paper.pdf) |  ICCV2019   |    FAMNet    |
 | Online multi-object tracking with instance-aware tracker and dynamic model refreshment |      [[pdf]](https://arxiv.xilesou.top/pdf/1902.08231)       |  WACV2019   |     KCF      |
-|             Tracking without bells and whistles              | [[pdf]](https://arxiv.org/pdf/1903.05625.pdf) [[code]](https://github.com/phil-bergmann/tracking_wo_bnw) |  ICCV2019   |   Tracktor   |
+|             Tracking without bells and whistles              | [[pdf]](https://arxiv.org/pdf/1903.05625.pdf) [[code]](https://github.com/phil-bergmann/tracking_wo_bnw) |  ICCV2019   |   **Tracktor**   |
 |         MOTS: Multi-Object Tracking and Segmentation         | [[pdf]](https://www.vision.rwth-aachen.de/media/papers/mots-multi-object-tracking-and-segmentation/MOTS.pdf) [[code]](https://github.com/VisualComputingInstitute/TrackR-CNN/tree/master) |  CVPR2019   | Track R-CNN  |
 | Eliminating Exposure Bias and Metric Mismatch in Multiple Object Tracking | [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Maksai_Eliminating_Exposure_Bias_and_Metric_Mismatch_in_Multiple_Object_Tracking_CVPR_2019_paper.pdf) [[code]](https://github.com/VisualComputingInstitute/TrackR-CNN/tree/master) |  CVPR2019   |  SAS_MOT17   |
 | Recurrent autoregressive networks for online multi-object tracking |      [[pdf]](https://arxiv.xilesou.top/pdf/1711.02741)       |  WACV2018   |     RAN      |
@@ -38,7 +40,7 @@
 |                             Name                             |                            Source                            | Publication |   Notes    |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: | :--------: |
 |  Learning non-uniform hypergraph for multi-object tracking   | [[pdf]](https://wvvw.aaai.org/ojs/index.php/AAAI/article/download/4928/4801) |  AAAI2019   |     NT     |
-|    Learning a Neural Solver for Multiple Object Tracking     | [[pdf]](https://arxiv.xilesou.top/pdf/1912.07515) [[code]](https://github.com/selflein/GraphNN-Multi-Object-Tracking) | arXiv(2019) | MPNTracker |
+|    Learning a Neural Solver for Multiple Object Tracking     | [[pdf]](https://arxiv.xilesou.top/pdf/1912.07515) [[code]](https://github.com/selflein/GraphNN-Multi-Object-Tracking) | arXiv(2019) | **MPNTracker** |
 |               Deep learning of graph matching                | [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zanfir_Deep_Learning_of_CVPR_2018_paper.pdf) |  CVPR2018   | 深度图匹配 |
 | muSSP: Efficient Min-cost Flow Algorithm for Multi-object Tracking | [[pdf]](http://papers.nips.cc/paper/8334-mussp-efficient-min-cost-flow-algorithm-for-multi-object-tracking) [[code]](https://github.com/yu-lab-vt/muSSP) | NIPS(2019)  |   muSSP    |
 | Exploit the connectivity: Multi-object tracking with trackletnet | [[pdf]](https://arxiv.org/pdf/1909.12605v1.pdf) [[code]](https://github.com/GaoangW/TNT) | ACM mm 2019 |  TNT(eTC)  |
@@ -48,7 +50,7 @@
 |               Customized multi-person tracker                | [[pdf]](https://is.mpg.de/uploads_file/attachment/attachment/469/0509.pdf) |  ACCV2018   |    HCC     |
 | Multi-object tracking with neural gating using bilinear lstm |      [[pdf]](https://arxiv.xilesou.top/pdf/1810.11780)       |  ECCV2018   | MHT_bLSTM  |
 | Trajectory Factory: Tracklet Cleaving and Re-connection by Deep Siamese Bi-GRU for Multiple Object Tracking |          [[pdf]](https://arxiv.org/abs/1804.04555)           |  ICME2018   |    GCRE    |
-| Multiple People Tracking with Lifted Multicut and Person Re-identification | [[pdf]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Tang_Multiple_People_Tracking_CVPR_2017_paper.pdf) |  CVPR2017   |    LMP     |
+| Multiple People Tracking with Lifted Multicut and Person Re-identification | [[pdf]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Tang_Multiple_People_Tracking_CVPR_2017_paper.pdf) |  CVPR2017   |    **LMP**     |
 |         Deep network flow for multi-object tracking          | [[pdf]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Schulter_Deep_Network_Flow_CVPR_2017_paper.pdf) |  CVPR2017   |     -      |
 |   Non-markovian globally consistent multi-object tracking    | [[pdf]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Maksai_Non-Markovian_Globally_Consistent_ICCV_2017_paper.pdf) [[code]](https://github.com/maksay/ptrack_cpp) |  ICCV2017   |     -      |
 | Multi-Object Tracking with Quadruplet Convolutional Neural Networks | [[pdf]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Son_Multi-Object_Tracking_With_CVPR_2017_paper.pdf) |  CVPR2017   |  Quad-CNN  |
@@ -126,4 +128,4 @@
 
 [IDF1](https://users.cs.duke.edu/~ristani/bmtt2016/ristani2016MTMC.pdf)
 
-Code: [python](https://github.com/cheind/py-motmetrics)、[matlab](
+Code: [python](https://github.com/cheind/py-motmetrics)、[matlab](https://motchallenge.net/devkit/)
