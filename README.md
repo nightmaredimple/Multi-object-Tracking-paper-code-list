@@ -85,6 +85,7 @@ Refer to [SpyderXu](https://github.com/SpyderXu/multi-object-tracking-paper-list
 | :-----------------------------------------: | :----------------------------------------------------------: | :---------: | :---: |
 | Robust Multi-Modality Multi-Object Tracking | [[pdf]](https://arxiv.org/abs/1909.03850) [[code]](https://github.com/ZwwWayne/mmMOT#) |  ICCV2019   | mmMOT |
 |   A baseline for 3D Multi-Object Tracking   |      [[pdf]](https://arxiv.xilesou.top/pdf/1907.03961) [[code]](https://github.com/xinshuoweng/AB3DMOT)      |    arXiv    |   -   |
+|   MOTSFusion: Track to Reconstruct and Reconstruct to Track   |      [[pdf]](http://arxiv.org/abs/1910.00130) [[code]](https://github.com/tobiasfshr/MOTSFusion)      |    ICRA2020&RA-L    |   -   |
 
 
 
