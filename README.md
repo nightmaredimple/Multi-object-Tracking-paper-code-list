@@ -4,7 +4,7 @@ Refer to [SpyderXu](https://github.com/SpyderXu/multi-object-tracking-paper-list
 
 |                             Name                             |                            Source                            | Publication |    Notes     |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: | :----------: |
-| DeepMOT:A Differentiable Framework for Training Multiple Object Trackers | [[pdf]](https://arxiv.org/pdf/1906.06618.pdf) [[code]](https://gitlab.inria.fr/yixu/deepmot) | arXiv(2019) |   DeepMOT    |
+| DeepMOT:A Differentiable Framework for Training Multiple Object Trackers | [[pdf]](https://arxiv.org/pdf/1906.06618.pdf) [[code]](https://gitlab.inria.fr/yixu/deepmot) | CVPR2020 |   DeepMOT    |
 | Online multiple pedestrian tracking using deep temporal appearance matching association | [[pdf]](https://arxiv.org/pdf/1906.06618.pdf) [[code]](https://gitlab.inria.fr/yixu/deepmot) | arXiv(2019) |  **DD_TAMA19**   |
 | Spatial-temporal relation networks for multi-object tracking | [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Xu_Spatial-Temporal_Relation_Networks_for_Multi-Object_Tracking_ICCV_2019_paper.pdf) |  ICCV2019   |     STRN     |
 |           Towards Real-Time Multi-Object Tracking            | [[pdf]](https://arxiv.org/pdf/1909.12605v1.pdf) [[code]](https://github.com/Zhongdao/Towards-Realtime-MOT) | arXiv(2019) | **JDE(private)** |
@@ -40,7 +40,7 @@ Refer to [SpyderXu](https://github.com/SpyderXu/multi-object-tracking-paper-list
 |                             Name                             |                            Source                            | Publication |   Notes    |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: | :--------: |
 |  Learning non-uniform hypergraph for multi-object tracking   | [[pdf]](https://wvvw.aaai.org/ojs/index.php/AAAI/article/download/4928/4801) |  AAAI2019   |     NT     |
-|    Learning a Neural Solver for Multiple Object Tracking     | [[pdf]](https://arxiv.xilesou.top/pdf/1912.07515) [[code]](https://github.com/selflein/GraphNN-Multi-Object-Tracking) | arXiv(2019) | **MPNTracker** |
+|    Learning a Neural Solver for Multiple Object Tracking     | [[pdf]](https://arxiv.xilesou.top/pdf/1912.07515) [[code]](https://github.com/selflein/GraphNN-Multi-Object-Tracking) | CVPR2020 | **MPNTracker** |
 |               Deep learning of graph matching                | [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zanfir_Deep_Learning_of_CVPR_2018_paper.pdf) |  CVPR2018   | 深度图匹配 |
 | muSSP: Efficient Min-cost Flow Algorithm for Multi-object Tracking | [[pdf]](http://papers.nips.cc/paper/8334-mussp-efficient-min-cost-flow-algorithm-for-multi-object-tracking) [[code]](https://github.com/yu-lab-vt/muSSP) | NIPS(2019)  |   muSSP    |
 | Exploit the connectivity: Multi-object tracking with trackletnet | [[pdf]](https://arxiv.org/pdf/1909.12605v1.pdf) [[code]](https://github.com/GaoangW/TNT) | ACM mm 2019 |  TNT(eTC)  |
