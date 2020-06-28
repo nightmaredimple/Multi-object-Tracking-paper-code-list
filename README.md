@@ -1,43 +1,50 @@
 Refer to [SpyderXu](https://github.com/SpyderXu/multi-object-tracking-paper-list) with some supplements
 
 # Online
-|                             Name                             |                            Source                            | Publication |    Notes     |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: | :----------: |
-|         A Simple Baseline for Multi-Object Tracking          | [[pdf]](http://arxiv.org/abs/2004.01888)[[code]](https://github.com/ifzhang/FairMOT) | arXiv(2019) |   FairMOT    |
-|                  Tracking Objects as Points                  | [[pdf]](http://arxiv.org/abs/2004.01177) [[code]](https://github.com/xingyizhou/CenterTrack) | arXiv(2019) | CenterTrack  |
-| Refinements in Motion and Appearance for Online Multi-Object Tracking | [[pdf]](https://arxiv.org/abs/2003.07177) [[code]](https://github.com/nightmaredimple/libmot) | arXiv(2019) |     MIFT     |
-|        Multiple Object Tracking by Flowing and Fusing        |          [[pdf]](https://arxiv.org/abs/2001.11180)           | arXiv(2019) |     FFT      |
-| A Unified Object Motion and Affinity Model for Online Multi-Object Tracking | [[pdf]](https://arxiv.org/abs/2003.11291)[[code]](https://github.com/yinjunbo/UMA-MOT) |  CVPR2020   |     UMA      |
-| DeepMOT:A Differentiable Framework for Training Multiple Object Trackers | [[pdf]](https://arxiv.org/pdf/1906.06618.pdf) [[code]](https://gitlab.inria.fr/yixu/deepmot) |  CVPR2020   |   DeepMOT    |
-| Online multiple pedestrian tracking using deep temporal appearance matching association | [[pdf]](https://arxiv.org/pdf/1906.06618.pdf) [[code]](https://gitlab.inria.fr/yixu/deepmot) | arXiv(2019) |  DD_TAMA19   |
-| Spatial-temporal relation networks for multi-object tracking | [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Xu_Spatial-Temporal_Relation_Networks_for_Multi-Object_Tracking_ICCV_2019_paper.pdf) |  ICCV2019   |     STRN     |
-|           Towards Real-Time Multi-Object Tracking            | [[pdf]](https://arxiv.org/pdf/1909.12605v1.pdf) [[code]](https://github.com/Zhongdao/Towards-Realtime-MOT) | arXiv(2019) | JDE(private) |
-| Multi-object tracking with multiple cues and switcher-aware classification |          [[pdf]](https://arxiv.org/abs/1901.06129)           | arXiv(2019) |     LSST     |
-| FAMNet: Joint learning of feature, affinity and multi-dimensional assignment for online multiple object tracking | [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chu_FAMNet_Joint_Learning_of_Feature_Affinity_and_Multi-Dimensional_Assignment_for_ICCV_2019_paper.pdf) |  ICCV2019   |    FAMNet    |
-| Online multi-object tracking with instance-aware tracker and dynamic model refreshment |      [[pdf]](https://arxiv.xilesou.top/pdf/1902.08231)       |  WACV2019   |     KCF      |
-|             Tracking without bells and whistles              | [[pdf]](https://arxiv.org/pdf/1903.05625.pdf) [[code]](https://github.com/phil-bergmann/tracking_wo_bnw) |  ICCV2019   |   Tracktor   |
-|         MOTS: Multi-Object Tracking and Segmentation         | [[pdf]](https://www.vision.rwth-aachen.de/media/papers/mots-multi-object-tracking-and-segmentation/MOTS.pdf) [[code]](https://github.com/VisualComputingInstitute/TrackR-CNN/tree/master) |  CVPR2019   | Track R-CNN  |
-| Eliminating Exposure Bias and Metric Mismatch in Multiple Object Tracking | [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Maksai_Eliminating_Exposure_Bias_and_Metric_Mismatch_in_Multiple_Object_Tracking_CVPR_2019_paper.pdf) [[code]](https://github.com/VisualComputingInstitute/TrackR-CNN/tree/master) |  CVPR2019   |  SAS_MOT17   |
-|      Deep affinity network for multiple object tracking      | [[pdf]](https://arxiv.xilesou.top/pdf/1810.11780) [[code]](https://github.com/shijieS/SST) | PAMI(2019)  |     DAN      |
-| Recurrent autoregressive networks for online multi-object tracking |      [[pdf]](https://arxiv.xilesou.top/pdf/1711.02741)       |  WACV2018   |     RAN      |
-| Real-time multiple people tracking with deeply learned candidate selection and person re-identification | [[pdf]](https://www.researchgate.net/publication/326224594_Real-time_Multiple_People_Tracking_with_Deeply_Learned_Candidate_Selection_and_Person_Re-identification) [[code]](https://github.com/longcw/MOTDT) |  ICME2018   |    MOTDT     |
-| Online multi-object tracking with dual matching attention networks | [[pdf]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Ji_Zhu_Online_Multi-Object_Tracking_ECCV_2018_paper.pdf) [[code]](https://github.com/jizhu1023/DMAN_MOT) |  ECCV2018   |     DMAN     |
-| Extending IOU Based Multi-Object Tracking by Visual Information | [[pdf]](http://elvera.nue.tu-berlin.de/typo3/files/1547Bochinski2018.pdf) [[code]](https://github.com/bochinski/iou-tracker) |  AVSS2018   |    V-IOU     |
-| Online Multi-target Tracking using Recurrent Neural Networks | [[pdf]](http://www.milanton.de/files/aaai2017/aaai2017-anton-rnntracking.pdf) [[code]](https://bitbucket.org/amilan/rnntracking) |  AAAI2017   |   MOT-RNN    |
-|             Detect to Track and Track to Detect              | [[pdf]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Feichtenhofer_Detect_to_Track_ICCV_2017_paper.pdf) [[code]](https://github.com/feichtenhofer/Detect-Track) |  ICCV2017   | D&T(private) |
-| Online multi-object tracking using CNN-based single object tracker with spatial-temporal attention mechanism | [[pdf]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Chu_Online_Multi-Object_Tracking_ICCV_2017_paper.pdf) |  ICCV2017   |     STAM     |
-| Tracking the untrackable: Learning to track multiple cues with long-term dependencies |          [[pdf]](https://arxiv.org/abs/1701.01909)           |  ICCV2017   |     AMIR     |
-| Simple online and realtime tracking with a deep association metric | [[pdf]](https://arxiv.org/abs/1703.07402) [[code]](https://github.com/nwojke/deep_sort) |  ICIP2017   |   DeepSort   |
-| High-speed tracking-by-detection without using image information | [[pdf]](http://elvera.nue.tu-berlin.de/files/1517Bochinski2017.pdf) [[code]](https://github.com/bochinski/iou-tracker) |  AVSS2017   | IOU Tracker  |
-|             Simple online and realtime tracking              | [[pdf]](https://arxiv.org/abs/1602.00763) [[code]](https://github.com/abewley/sort) |  ICIP2016   |     Sort     |
-| Temporal dynamic appearance modeling for online multi-person tracking |         [[pdf]](https://arxiv.org/pdf/1510.02906v1)          | CVIU(2016)  |     TDAM     |
-| Online multi-object tracking via structural constraint event aggregation | [[pdf]](http://openaccess.thecvf.com/content_cvpr_2016/papers/Yoon_Online_Multi-Object_Tracking_CVPR_2016_paper.pdf) |  CVPR2016   |     SCEA     |
-| Online Multi-Object Tracking Via Robust Collaborative Model and Sample Selection | [[pdf]](https://users.encs.concordia.ca/~rcmss/include/Papers/CVIU2016.pdf) [[code]](https://users.encs.concordia.ca/~rcmss/) |  CVIU2016   |    RCMSS     |
-| Learning to Track: Online Multi-Object Tracking by Decision Making | [[pdf]](http://openaccess.thecvf.com/content_iccv_2015/papers/Xiang_Learning_to_Track_ICCV_2015_paper.pdf) [[code]](http://cvgl.stanford.edu/projects/MDP_tracking/) |  ICCV2015   |     MDP      |
-| Learning to Divide and Conquer for Online Multi-Target Tracking | [[pdf]](http://ieeexplore.ieee.org/document/7410854/) [[code]](https://github.com/francescosolera/LDCT) |  ICCV2015   |     LDCT     |
-| Robust online multi-object tracking based on tracklet confidence and online discriminative appearance learning | [[pdf]](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Bae_Robust_Online_Multi-Object_2014_CVPR_paper.pdf) [[code]](https://cvl.gist.ac.kr/project/cmot.html) |  CVPR2014   |     CMOT     |
-| The Way They Move: Tracking Targets with Similar Appearance  | [[pdf]](https://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Dicle_The_Way_They_2013_ICCV_paper.pdf) [[code]](https://bitbucket.org/cdicle/smot) |  ICCV2013   |     SMOT     |
-|      Online Multi-Person Tracking by Tracker Hierarchy       | [[pdf]](https://github.com/SpyderXu/multi-object-tracking-paper-list/blob/master) [[code]](http://cs-people.bu.edu/jmzhang/tracker_hierarchy/Tracker_Hierarchy.htm) |  AVSS2012   |    OMPTTH    |
+|                             Name                             |                            Source                            | Publication |       Notes        |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: | :----------------: |
+| Joint Detection and Multi-Object Tracking with Graph Neural Networks |          [[pdf]](https://arxiv.org/abs/2006.13164)           | arxiv(2020) |     JDMOT_GNN      |
+|         Graph Networks for Multiple Object Tracking          | [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9093347) [[code]](https://github.com/yinizhizhu/GNMOT) |  WACV2020   |       GNMOT        |
+| Deep association: End-to-end graph-based learning for multiple object tracking with conv-graph neural network | [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3323873.3325010)  |  ICMR2019   |        DAN         |
+| SQE: a Self Quality Evaluation Metric for Parameters Optimization in Multi-Object Tracking |          [[pdf]](https://arxiv.org/abs/2004.07472)           | arxiv(2020) |        SQE         |
+| Autoregressive Trajectory Inpainting and Scoring for Tracking |          [[pdf]](https://arxiv.org/abs/2004.07482)           |  CVPR2020   |       ArTIST       |
+|       Multiple Object Tracking with Siamese Track-RCNN       |          [[pdf]](https://arxiv.org/abs/2004.07786)           | arxiv(2020) | Siamese Track-RCNN |
+|       Online Single Stage Joint Detection and Tracking       |          [[pdf]](https://arxiv.org/abs/2003.13870)           |  CVPR2020   |    RetinaTrack     |
+|         A Simple Baseline for Multi-Object Tracking          | [[pdf]](http://arxiv.org/abs/2004.01888)[[code]](https://github.com/ifzhang/FairMOT) | arXiv(2019) |      FairMOT       |
+|                  Tracking Objects as Points                  | [[pdf]](http://arxiv.org/abs/2004.01177) [[code]](https://github.com/xingyizhou/CenterTrack) | arXiv(2019) |    CenterTrack     |
+| Refinements in Motion and Appearance for Online Multi-Object Tracking | [[pdf]](https://arxiv.org/abs/2003.07177) [[code]](https://github.com/nightmaredimple/libmot) | arXiv(2019) |        MIFT        |
+|        Multiple Object Tracking by Flowing and Fusing        |          [[pdf]](https://arxiv.org/abs/2001.11180)           | arXiv(2019) |        FFT         |
+| A Unified Object Motion and Affinity Model for Online Multi-Object Tracking | [[pdf]](https://arxiv.org/abs/2003.11291)[[code]](https://github.com/yinjunbo/UMA-MOT) |  CVPR2020   |        UMA         |
+| DeepMOT:A Differentiable Framework for Training Multiple Object Trackers | [[pdf]](https://arxiv.org/pdf/1906.06618.pdf) [[code]](https://gitlab.inria.fr/yixu/deepmot) |  CVPR2020   |      DeepMOT       |
+| Online multiple pedestrian tracking using deep temporal appearance matching association | [[pdf]](https://arxiv.org/pdf/1906.06618.pdf) [[code]](https://github.com/yyc9268/Deep-TAMA) | arXiv(2019) |     DD_TAMA19      |
+| Spatial-temporal relation networks for multi-object tracking | [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Xu_Spatial-Temporal_Relation_Networks_for_Multi-Object_Tracking_ICCV_2019_paper.pdf) |  ICCV2019   |        STRN        |
+|           Towards Real-Time Multi-Object Tracking            | [[pdf]](https://arxiv.org/pdf/1909.12605v1.pdf) [[code]](https://github.com/Zhongdao/Towards-Realtime-MOT) | arXiv(2019) |    JDE(private)    |
+| Multi-object tracking with multiple cues and switcher-aware classification |          [[pdf]](https://arxiv.org/abs/1901.06129)           | arXiv(2019) |        LSST        |
+| FAMNet: Joint learning of feature, affinity and multi-dimensional assignment for online multiple object tracking | [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chu_FAMNet_Joint_Learning_of_Feature_Affinity_and_Multi-Dimensional_Assignment_for_ICCV_2019_paper.pdf) |  ICCV2019   |       FAMNet       |
+| Online multi-object tracking with instance-aware tracker and dynamic model refreshment |      [[pdf]](https://arxiv.xilesou.top/pdf/1902.08231)       |  WACV2019   |        KCF         |
+|             Tracking without bells and whistles              | [[pdf]](https://arxiv.org/pdf/1903.05625.pdf) [[code]](https://github.com/phil-bergmann/tracking_wo_bnw) |  ICCV2019   |      Tracktor      |
+|         MOTS: Multi-Object Tracking and Segmentation         | [[pdf]](https://www.vision.rwth-aachen.de/media/papers/mots-multi-object-tracking-and-segmentation/MOTS.pdf) [[code]](https://github.com/VisualComputingInstitute/TrackR-CNN/tree/master) |  CVPR2019   |    Track R-CNN     |
+| Eliminating Exposure Bias and Metric Mismatch in Multiple Object Tracking | [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Maksai_Eliminating_Exposure_Bias_and_Metric_Mismatch_in_Multiple_Object_Tracking_CVPR_2019_paper.pdf) [[code]](https://github.com/VisualComputingInstitute/TrackR-CNN/tree/master) |  CVPR2019   |     SAS_MOT17      |
+|      Deep affinity network for multiple object tracking      | [[pdf]](https://arxiv.xilesou.top/pdf/1810.11780) [[code]](https://github.com/shijieS/SST) | PAMI(2019)  |        DAN         |
+| Recurrent autoregressive networks for online multi-object tracking |      [[pdf]](https://arxiv.xilesou.top/pdf/1711.02741)       |  WACV2018   |        RAN         |
+| Real-time multiple people tracking with deeply learned candidate selection and person re-identification | [[pdf]](https://www.researchgate.net/publication/326224594_Real-time_Multiple_People_Tracking_with_Deeply_Learned_Candidate_Selection_and_Person_Re-identification) [[code]](https://github.com/longcw/MOTDT) |  ICME2018   |       MOTDT        |
+| Online multi-object tracking with dual matching attention networks | [[pdf]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Ji_Zhu_Online_Multi-Object_Tracking_ECCV_2018_paper.pdf) [[code]](https://github.com/jizhu1023/DMAN_MOT) |  ECCV2018   |        DMAN        |
+| Extending IOU Based Multi-Object Tracking by Visual Information | [[pdf]](http://elvera.nue.tu-berlin.de/typo3/files/1547Bochinski2018.pdf) [[code]](https://github.com/bochinski/iou-tracker) |  AVSS2018   |       V-IOU        |
+| Online Multi-target Tracking using Recurrent Neural Networks | [[pdf]](http://www.milanton.de/files/aaai2017/aaai2017-anton-rnntracking.pdf) [[code]](https://bitbucket.org/amilan/rnntracking) |  AAAI2017   |      MOT-RNN       |
+|             Detect to Track and Track to Detect              | [[pdf]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Feichtenhofer_Detect_to_Track_ICCV_2017_paper.pdf) [[code]](https://github.com/feichtenhofer/Detect-Track) |  ICCV2017   |    D&T(private)    |
+| Online multi-object tracking using CNN-based single object tracker with spatial-temporal attention mechanism | [[pdf]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Chu_Online_Multi-Object_Tracking_ICCV_2017_paper.pdf) |  ICCV2017   |        STAM        |
+| Tracking the untrackable: Learning to track multiple cues with long-term dependencies |          [[pdf]](https://arxiv.org/abs/1701.01909)           |  ICCV2017   |        AMIR        |
+| Simple online and realtime tracking with a deep association metric | [[pdf]](https://arxiv.org/abs/1703.07402) [[code]](https://github.com/nwojke/deep_sort) |  ICIP2017   |      DeepSort      |
+| High-speed tracking-by-detection without using image information | [[pdf]](http://elvera.nue.tu-berlin.de/files/1517Bochinski2017.pdf) [[code]](https://github.com/bochinski/iou-tracker) |  AVSS2017   |    IOU Tracker     |
+|             Simple online and realtime tracking              | [[pdf]](https://arxiv.org/abs/1602.00763) [[code]](https://github.com/abewley/sort) |  ICIP2016   |        Sort        |
+| Temporal dynamic appearance modeling for online multi-person tracking |         [[pdf]](https://arxiv.org/pdf/1510.02906v1)          | CVIU(2016)  |        TDAM        |
+| Online multi-object tracking via structural constraint event aggregation | [[pdf]](http://openaccess.thecvf.com/content_cvpr_2016/papers/Yoon_Online_Multi-Object_Tracking_CVPR_2016_paper.pdf) |  CVPR2016   |        SCEA        |
+| Online Multi-Object Tracking Via Robust Collaborative Model and Sample Selection | [[pdf]](https://users.encs.concordia.ca/~rcmss/include/Papers/CVIU2016.pdf) [[code]](https://users.encs.concordia.ca/~rcmss/) |  CVIU2016   |       RCMSS        |
+| Learning to Track: Online Multi-Object Tracking by Decision Making | [[pdf]](http://openaccess.thecvf.com/content_iccv_2015/papers/Xiang_Learning_to_Track_ICCV_2015_paper.pdf) [[code]](http://cvgl.stanford.edu/projects/MDP_tracking/) |  ICCV2015   |        MDP         |
+| Learning to Divide and Conquer for Online Multi-Target Tracking | [[pdf]](http://ieeexplore.ieee.org/document/7410854/) [[code]](https://github.com/francescosolera/LDCT) |  ICCV2015   |        LDCT        |
+| Robust online multi-object tracking based on tracklet confidence and online discriminative appearance learning | [[pdf]](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Bae_Robust_Online_Multi-Object_2014_CVPR_paper.pdf) [[code]](https://cvl.gist.ac.kr/project/cmot.html) |  CVPR2014   |        CMOT        |
+| The Way They Move: Tracking Targets with Similar Appearance  | [[pdf]](https://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Dicle_The_Way_They_2013_ICCV_paper.pdf) [[code]](https://bitbucket.org/cdicle/smot) |  ICCV2013   |        SMOT        |
+|      Online Multi-Person Tracking by Tracker Hierarchy       | [[pdf]](https://github.com/SpyderXu/multi-object-tracking-paper-list/blob/master) [[code]](http://cs-people.bu.edu/jmzhang/tracker_hierarchy/Tracker_Hierarchy.htm) |  AVSS2012   |       OMPTTH       |
 
 
 
@@ -45,6 +52,7 @@ Refer to [SpyderXu](https://github.com/SpyderXu/multi-object-tracking-paper-list
 
 |                             Name                             |                            Source                            | Publication |   Notes    |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: | :--------: |
+| Lifted Disjoint Paths with Application in Multiple Object Tracking |          [[pdf]](https://arxiv.org/abs/2006.14550)           |  ICML2020   |   Lif_T    |
 |  Learning non-uniform hypergraph for multi-object tracking   | [[pdf]](https://wvvw.aaai.org/ojs/index.php/AAAI/article/download/4928/4801) |  AAAI2019   |     NT     |
 |    Learning a Neural Solver for Multiple Object Tracking     | [[pdf]](https://arxiv.xilesou.top/pdf/1912.07515) [[code]](https://github.com/selflein/GraphNN-Multi-Object-Tracking) |  CVPR2020   | MPNTracker |
 |               Deep learning of graph matching                | [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zanfir_Deep_Learning_of_CVPR_2018_paper.pdf) |  CVPR2018   | 深度图匹配 |
@@ -72,12 +80,13 @@ Refer to [SpyderXu](https://github.com/SpyderXu/multi-object-tracking-paper-list
 
 # MTMC
 
-|                             Name                             |                            Source                            | Publication |         Notes         |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: | :-------------------: |
-| CityFlow: A City-Scale Benchmark for Multi-Target Multi-Camera Vehicle Tracking and Re-Identification | [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Tang_CityFlow_A_City-Scale_Benchmark_for_Multi-Target_Multi-Camera_Vehicle_Tracking_and_CVPR_2019_paper.pdf) |  CVPR2019   |       CityFlow        |
-| Features for multi-target multi-camera tracking and re-identification | [[pdf]](https://arxiv.org/pdf/1803.10859.pdf) [[code]](https://github.com/SamvitJ/Duke-DeepCC) |  CVPR2018   |     DeepCC(MTMC)      |
-| Rolling Shutter and Radial Distortion Are Features for High Frame Rate Multi-Camera Tracking | [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Bapat_Rolling_Shutter_and_CVPR_2018_paper.pdf) |  CVPR2018   |           -           |
-| Towards a Principled Integration of Multi-Camera Re-Identification andTracking through Optimal Bayes Filters | [[pdf]](https://arxiv.org/pdf/1705.04608.pdf) [[code]](https://github.com/VisualComputingInstitute/towards-reid-tracking) |  CVPR2017   | towards-reid-tracking |
+|                             Name                             |                            Source                            |    Publication    |         Notes         |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :---------------: | :-------------------: |
+| Locality Aware Appearance Metric for Multi-Target Multi-Camera Tracking | [[pdf]](https://arxiv.org/abs/1911.12037) [code](https://github.com/hou-yz/DeepCC-local) | CVPR2019 Workshop |         LAAM          |
+| CityFlow: A City-Scale Benchmark for Multi-Target Multi-Camera Vehicle Tracking and Re-Identification | [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Tang_CityFlow_A_City-Scale_Benchmark_for_Multi-Target_Multi-Camera_Vehicle_Tracking_and_CVPR_2019_paper.pdf) |     CVPR2019      |       CityFlow        |
+| Features for multi-target multi-camera tracking and re-identification | [[pdf]](https://arxiv.org/pdf/1803.10859.pdf) [[code]](https://github.com/SamvitJ/Duke-DeepCC) |     CVPR2018      |     DeepCC(MTMC)      |
+| Rolling Shutter and Radial Distortion Are Features for High Frame Rate Multi-Camera Tracking | [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Bapat_Rolling_Shutter_and_CVPR_2018_paper.pdf) |     CVPR2018      |           -           |
+| Towards a Principled Integration of Multi-Camera Re-Identification andTracking through Optimal Bayes Filters | [[pdf]](https://arxiv.org/pdf/1705.04608.pdf) [[code]](https://github.com/VisualComputingInstitute/towards-reid-tracking) |     CVPR2017      | towards-reid-tracking |
 
 
 
@@ -85,11 +94,12 @@ Refer to [SpyderXu](https://github.com/SpyderXu/multi-object-tracking-paper-list
 
 # 3D&Multi-Modality
 
-|                    Name                     |                            Source                            | Publication | Notes |
-| :-----------------------------------------: | :----------------------------------------------------------: | :---------: | :---: |
-| Robust Multi-Modality Multi-Object Tracking | [[pdf]](https://arxiv.org/abs/1909.03850) [[code]](https://github.com/ZwwWayne/mmMOT#) |  ICCV2019   | mmMOT |
-|   A baseline for 3D Multi-Object Tracking   |      [[pdf]](https://arxiv.xilesou.top/pdf/1907.03961) [[code]](https://github.com/xinshuoweng/AB3DMOT)      |    arXiv    |   -   |
-|   MOTSFusion: Track to Reconstruct and Reconstruct to Track   |      [[pdf]](http://arxiv.org/abs/1910.00130) [[code]](https://github.com/tobiasfshr/MOTSFusion)      |    ICRA2020&RA-L    |   -   |
+|                             Name                             |                            Source                            | Publication |     Notes      |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: | :------------: |
+| Joint 3D Tracking and Forecasting with Graph Neural Network and Diversity Sampling | [[pdf]](https://arxiv.org/abs/2003.07847) [[code]](https://github.com/xinshuoweng/GNNTrkForecast) |    arxiv    | GNNTrkForecast |
+| Graph Neural Network for 3D Multi-Object Tracking with Multi-Feature Learning | [[pdf]](https://arxiv.org/abs/2006.07327) [[code]](https://github.com/xinshuoweng/GNN3DMOT) |  CVPR2020   |    GNN3DMOT    |
+|         Robust Multi-Modality Multi-Object Tracking          | [[pdf]](https://arxiv.org/abs/1909.03850) [[code]](https://github.com/ZwwWayne/mmMOT#) |  ICCV2019   |     mmMOT      |
+|           A baseline for 3D Multi-Object Tracking            | [[pdf]](https://arxiv.xilesou.top/pdf/1907.03961) [[code]](https://github.com/xinshuoweng/AB3DMOT) |    arXiv    |       -        |
 
 
 
