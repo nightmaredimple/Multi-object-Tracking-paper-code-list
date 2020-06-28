@@ -50,10 +50,9 @@ Refer to [SpyderXu](https://github.com/SpyderXu/multi-object-tracking-paper-list
 
 
 # Batch
-
-|                             Name                             |                            Source                            | Publication |   Notes    |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: | :--------: |
-| Lifted Disjoint Paths with Application in Multiple Object Tracking |          [[pdf]](https://arxiv.org/abs/2006.14550)           |  ICML2020   |   Lif_T    |
+|                             Name                             |                            Source                            | Publication | Notes |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: | :---: |
+| Lifted Disjoint Paths with Application in Multiple Object Tracking | [[pdf]](https://arxiv.org/abs/2006.14550) [[code]](https://github.com/AndreaHor/LifT_Solver) |  ICML2020   | Lif_T |
 |  Learning non-uniform hypergraph for multi-object tracking   | [[pdf]](https://wvvw.aaai.org/ojs/index.php/AAAI/article/download/4928/4801) |  AAAI2019   |     NT     |
 |    Learning a Neural Solver for Multiple Object Tracking     | [[pdf]](https://arxiv.xilesou.top/pdf/1912.07515) [[code]](https://github.com/selflein/GraphNN-Multi-Object-Tracking) |  CVPR2020   | MPNTracker |
 |               Deep learning of graph matching                | [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zanfir_Deep_Learning_of_CVPR_2018_paper.pdf) |  CVPR2018   | 深度图匹配 |
