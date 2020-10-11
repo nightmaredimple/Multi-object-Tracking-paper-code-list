@@ -3,6 +3,12 @@ Refer to [SpyderXu](https://github.com/SpyderXu/multi-object-tracking-paper-list
 # Online
 |                             Name                             |                            Source                            | Publication | Notes  |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: | :----: |
+| Simultaneous Detection and Tracking with Motion Modelling for Multiple Object Tracking | [[pdf]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123690613.pdf)| ECCV2020| - |
+| Towards Real-Time Multi-Object Tracking | [[pdf]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123560103.pdf) [[code]](https://github.com/Zhongdao/Towards-Realtime-MOT)| ECCV2020 | - |
+| Tracking Objects as Points | [[pdf]](https://arxiv.org/pdf/2004.01177.pdf) [[code]](https://github.com/xingyizhou/CenterTrack)| ECCV 2020 | - |
+| Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking | [[pdf]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490137.pdf)| ECCV2020| - |
+| Segment as Points for Efficient Online Multi-Object Tracking and Segmentation | [[pdf]](https://arxiv.org/pdf/2007.01550) [[code]](https://github.com/detectRecog/PointTrack) |  ECCV2020 oral   |  mots|
+| MAT: Motion-Aware Multi-Object Tracking | [[pdf]](https://arxiv.org/pdf/2009.04794.pdf)  |  arXiv   | 2020.9.18 |
 | Adopting Tubes to Track Multi-Object in a One-Step Training Model | [[pdf]](https://arxiv.org/pdf/2006.05683.pdf) [[code]](https://github.com/BoPang1996/TubeTK) |  CVPR2020   | TubeTK |
 | Joint Detection and Multi-Object Tracking with Graph Neural Networks |          [[pdf]](https://arxiv.org/abs/2006.13164)           | arxiv(2020) |     JDMOT_GNN      |
 |         Graph Networks for Multiple Object Tracking          | [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9093347) [[code]](https://github.com/yinizhizhu/GNMOT) |  WACV2020   |       GNMOT        |
@@ -100,8 +106,11 @@ Refer to [SpyderXu](https://github.com/SpyderXu/multi-object-tracking-paper-list
 | Graph Neural Network for 3D Multi-Object Tracking with Multi-Feature Learning | [[pdf]](https://arxiv.org/abs/2006.07327) [[code]](https://github.com/xinshuoweng/GNN3DMOT) |  CVPR2020   |    GNN3DMOT    |
 |         Robust Multi-Modality Multi-Object Tracking          | [[pdf]](https://arxiv.org/abs/1909.03850) [[code]](https://github.com/ZwwWayne/mmMOT#) |  ICCV2019   |     mmMOT      |
 |           A baseline for 3D Multi-Object Tracking            | [[pdf]](https://arxiv.xilesou.top/pdf/1907.03961) [[code]](https://github.com/xinshuoweng/AB3DMOT) |    arXiv    |       -        |
-
-
+| 3D Object Detection and Tracking Based on Streaming Data | [[pdf]](https://arxiv.org/pdf/2009.06169.pdf)  |    ICRA2020    | DODT |
+| Factor Graph based 3D Multi-Object Tracking in Point Clouds | [[pdf]](https://arxiv.org/pdf/2008.05309)  [[video]](https://www.youtube.com/watch?v=mvZmli4jrZQ)|    IROS2020    | DODT |
+| DeepTracking-Net: 3D Tracking with Unsupervised Learning of Continuous Flow | [[pdf]](https://arxiv.org/pdf/2006.13848) |    arXiv    | 2020.6.24 |
+| Center-based 3D Object Detection and Tracking | [[pdf]](https://arxiv.org/pdf/2006.11275) [[code]](https://github.com/tianweiy/CenterPoint)|    arXiv    | 2020.6.19 |
+| 1st Place Solutions for Waymo Open Dataset Challenges -- 2D and 3D Tracking | [[pdf]](https://arxiv.org/pdf/2006.15506)| arXiv| technical report|
 
 ## Review
 
